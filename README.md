@@ -7,6 +7,23 @@ API REST desplegada en Azure Web App desde Azure Container Registry (ACR).
 - `push-to-acr.sh`: crea el registro si falta y sube ambas etiquetas.
 - `deploy-webapp.sh`: crea el plan Linux B1 y la Web App, configura acceso a ACR, puerto y CORS.
 
+---
+
+## Evaluación y reconocimiento
+
+<div align="center">
+
+### **Calificación final: 10 / 10**
+
+*Evaluado por **UNIR** (Universidad Internacional de La Rioja)*  
+*Programa de Tecnología Aplicada a los Negocios*
+
+</div>
+
+> **Comentario de evaluación:** Entrega completa, con un flujo coherente desde la construcción local con Docker hasta la publicación en ACR y el despliegue en Azure Web App. Destacan la correcta configuración del contenedor, las etiquetas de versión y latest, y la claridad de los mensajes y las comprobaciones documentadas en el README.
+
+---
+
 ## Preparación
 
 Se necesitan Docker en ejecución, Azure CLI y una suscripción de Azure activa.
